@@ -56,7 +56,7 @@ variable "max_worker_nodes" {
 
 variable "db_version" {
   description = "postgres version"
-  default = "15.7"
+  default = "15"
 }
 
 variable "db_instance_type" {
